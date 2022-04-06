@@ -5,9 +5,9 @@
 }
 
 body{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif !important;
   margin: 0 auto;
-  background-color: rgb(226, 103, 103) !important;
+  background:linear-gradient(87deg,#6377e7,#8e6de7)!important
 }
 
 .app{
@@ -15,23 +15,27 @@ body{
 }
 
 .all__news{
-  margin: 50px auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+  margin: 90px auto !important;
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit,minmax(400px,1fr)) !important;
   grid-gap:20px;
+  justify-content: center !important;
 }
 
 .news{
   max-width: 500px;
   padding: 30px;
-  border: 1px solid lightslategray;
+  
   border-radius: 5px;
   display: flex;
   flex-direction: column;
+  background-color: rgb(255, 255, 255);
 }
 .news__title{
+  margin-top: 10px;
   padding-bottom: 10px;
-  border-bottom: 1px solid rgb(126, 130, 134);
+  border-bottom: 1px solid rgb(126, 130, 134) !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
 .news__description{
   padding-top: 10px;
@@ -40,6 +44,7 @@ body{
   padding-bottom: 10px;
 }
 .news__author{
+  margin-top: 10px;
   margin-right: 10px;
   color: purple;
 }
@@ -50,5 +55,14 @@ body{
 .news__source, .news__published{
   display: inline-block;
   margin-top: 10px;
-  color: rgb(58, 55, 55);
+  color: grey !important;
 }
+
+.qur{
+  margin-top: 50px;
+  text-align: center;
+  color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
